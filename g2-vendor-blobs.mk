@@ -26,8 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/lge/g2/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/lge/g2/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/lge/g2/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/lge/g2/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/lge/g2/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/lge/g2/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/lge/g2/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/g2/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/g2/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/g2/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/g2/proprietary/bin/rild:system/bin/rild \
+    vendor/lge/g2/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/g2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/g2/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/g2/proprietary/bin/thermald:system/bin/thermald \
@@ -66,7 +67,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g2/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/g2/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/g2/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g2/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g2/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -80,12 +80,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/g2/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/g2/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/g2/proprietary/vendor/lib/hw/power.msm8974.so:system/vendor/lib/hw/power.msm8974.so \
     vendor/lge/g2/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/g2/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/lge/g2/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/g2/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/g2/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lge/g2/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/lge/g2/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/lge/g2/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/g2/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lge/g2/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/g2/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
