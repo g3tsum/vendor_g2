@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/g2/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/g2/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/g2/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g2/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g2/proprietary/lib/libHDR.so:system/lib/libHDR.so \
