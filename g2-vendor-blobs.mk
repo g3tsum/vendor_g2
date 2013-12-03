@@ -69,6 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/g2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/g2/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/g2/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/g2/proprietary/lib/hw/nfc.lg.so:system/lib/hw/nfc.lg.so \
     vendor/lge/g2/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/g2/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/g2/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
@@ -256,6 +258,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g2/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/g2/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/g2/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
-    vendor/lge/g2/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
-    vendor/lge/g2/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
+    vendor/lge/g2/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/g2/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd
